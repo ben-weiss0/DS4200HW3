@@ -1,0 +1,70 @@
+Customizations Applied to Website:
+
+1. Custom Font:
+   - The website uses the "Roboto" font from Google Fonts for a modern and clean look.
+   - The font is applied globally across the body of the website.
+   
+   Code:
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+   body {
+       font-family: 'Roboto', sans-serif;
+   }
+
+2. Color Scheme:
+   - Background color: Light gray (#f4f4f9) for a clean, neutral background.
+   - Text color: Dark gray (#333) for easy readability.
+   - Link color: Blue (#3498db) for links, with a hover effect that changes the color to a darker blue (#2980b9).
+   
+   Code:
+   body {
+       background-color: #f4f4f9;
+       color: #333;
+   }
+   a {
+       color: #3498db;
+       text-decoration: none;
+   }
+   a:hover {
+       color: #2980b9;
+   }
+
+3. Layout Adjustments:
+   - The website uses padding and margins to create whitespace and improve readability.
+   - The main content area is centered with a white background, rounded corners, and a subtle shadow for a clean, modern appearance.
+   - The header navigation links are displayed inline with space between them for a clean layout.
+   
+   Code:
+   header {
+       padding: 20px 0;
+       text-align: center;
+   }
+   main {
+       margin: 40px auto;
+       width: 80%;
+       padding: 20px;
+       background-color: #fff;
+       border-radius: 8px;
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   }
+
+4. Image Styling:
+   - Images are made responsive and will adjust according to the screen size.
+   - Maximum width for images is set to 600px to prevent them from becoming too large.
+   
+   Code:
+   .image img {
+       width: 100%;
+       max-width: 600px;
+       height: auto;
+       display: block;
+       margin: 20px auto;
+   }
+
+5. Footer Styling:
+   - The footer text is centered with a margin at the top to give some space.
+   
+   Code:
+   footer {
+       text-align: center;
+       margin-top: 20px;
+   }
